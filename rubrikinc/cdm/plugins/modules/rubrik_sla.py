@@ -186,7 +186,7 @@ def main():
         retention_on_brik_in_days=dict(required=False, default=None, type='int'),
         instant_archive=dict(required=False, default=False, type='bool'),
         replication_target=dict(required=False, default=None, type='str'),
-        replication_retention_in_days=dict(required=False, default=None, type='str'),
+        replication_retention_in_days=dict(required=False, default=None, type='int'),
         timeout=dict(required=False, type='int', default=15),
     )
 
