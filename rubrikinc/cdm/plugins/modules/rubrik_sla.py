@@ -249,7 +249,7 @@ def main():
             timeout)
 
     except Exception as error:
-        if "configuration does not match" in str(error) || "parameters must be populated together" in str(error):
+        if "configuration does not match" in str(error) or "parameters must be populated together" in str(error):
             try:
                 api_request = rubrik.update_sla(
                     name,
